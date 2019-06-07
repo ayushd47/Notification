@@ -18,12 +18,12 @@ public class CreateChannel {
     {
         if (Build.VERSION.SDK_INT >=Build.VERSION_CODES.O){
             NotificationChannel channel1 = new NotificationChannel(
-                    CHANNEL_1,"Channel1", NotificationManager.IMPORTANCE_LOW
+                    CHANNEL_1,"Channel1", NotificationManager.IMPORTANCE_HIGH
             );
             channel1.setDescription("This is channel 1");
 
             NotificationChannel channel2 = new NotificationChannel(
-                    CHANNEL_2,"Channel2", NotificationManager.IMPORTANCE_LOW
+                    CHANNEL_2,"Channel2", NotificationManager.IMPORTANCE_HIGH
             );
             channel2.setDescription("This is channel 2");
 
